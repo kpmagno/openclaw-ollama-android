@@ -44,6 +44,7 @@ Detailed steps are in:
 
 - Termux boot scripts: [`scripts/termux-boot`](scripts/termux-boot)
 - Ubuntu service scripts: [`scripts/ubuntu`](scripts/ubuntu)
+- Local guardrails scan: [`scripts/check-guardrails.sh`](scripts/check-guardrails.sh)
 - OpenClaw config template: [`templates/openclaw.json.example`](templates/openclaw.json.example)
 
 ## Security baseline
@@ -52,6 +53,7 @@ Detailed steps are in:
 - Use SSH keys, not passwords.
 - Keep `channels.telegram.allowFrom` restricted to known numeric IDs.
 - Keep OpenClaw model fallbacks empty for local-only inference paths.
+- Run `./scripts/check-guardrails.sh` before every push.
 
 ## Credits
 
