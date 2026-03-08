@@ -1,0 +1,18 @@
+# Runtime logs
+*.log
+logs/
+
+# Secrets
+.env
+.env.*
+*.secret
+secrets/
+
+# Node
+node_modules/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

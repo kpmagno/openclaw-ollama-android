@@ -1,0 +1,32 @@
+{
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "ollama/qwen2.5:0.5b",
+        "fallbacks": []
+      },
+      "bootstrapMaxChars": 120,
+      "bootstrapTotalMaxChars": 400,
+      "timeoutSeconds": 900,
+      "maxConcurrent": 1,
+      "subagents": {
+        "maxConcurrent": 1
+      }
+    }
+  },
+  "gateway": {
+    "mode": "local",
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "<set-at-runtime>"
+    }
+  },
+  "channels": {
+    "telegram": {
+      "enabled": false,
+      "botToken": "<set-at-runtime>",
+      "allowFrom": []
+    }
+  }
+}
