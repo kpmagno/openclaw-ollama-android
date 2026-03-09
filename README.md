@@ -55,6 +55,10 @@ Detailed steps are in:
 - Keep OpenClaw model fallbacks empty for local-only inference paths.
 - Run `./scripts/check-guardrails.sh` before every push.
 
+## Disclaimer
+
+Use is at your own risk. Read the full disclaimer in [`DISCLAIMER.md`](DISCLAIMER.md).
+
 ## Credits
 
 Prepared by BeeHive contributors and Codex GPT-5.3 High.
