@@ -17,6 +17,14 @@ openclaw config set agents.defaults.maxConcurrent 1
 openclaw config set agents.defaults.subagents.maxConcurrent 1
 ```
 
+## Ollama context window
+
+Set Ollama context to 18k tokens before starting the server:
+
+```bash
+export OLLAMA_NUM_CTX=18432
+```
+
 ## Observe memory and swap
 
 In Termux:
