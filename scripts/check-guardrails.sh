@@ -13,7 +13,7 @@ if rg -n --hidden -S "${SECRET_PATTERNS}" .; then
 fi
 
 echo "[guardrails] scanning for private key material..."
-if rg -n --hidden -S '-----BEGIN (RSA|EC|OPENSSH|PRIVATE) KEY-----' .; then
+if rg -n --hidden -S -- '-----BEGIN (RSA|EC|OPENSSH|PRIVATE) KEY-----' .; then
   echo "[guardrails] blocked: private key material detected."
   exit 1
 fi

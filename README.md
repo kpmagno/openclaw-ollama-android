@@ -57,4 +57,4 @@ Detailed steps are in:
 
 ## Credits
 
-Prepared by Kevin and Codex GPT-5.3 High.
+Prepared by BeeHive contributors and Codex GPT-5.3 High.
