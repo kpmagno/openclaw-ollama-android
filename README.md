@@ -16,6 +16,7 @@ Public playbook for running OpenClaw on an Android phone with local Ollama infer
 - Inference can be local/offline.
 - Telegram itself still needs network access to Telegram servers.
 - On lower-power phones, response latency can be high.
+- Current status: functional but not yet 100% stable in all device/runtime conditions.
 
 ## Quick start
 
